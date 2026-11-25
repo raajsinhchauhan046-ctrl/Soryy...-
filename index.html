@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <title>Paayu...😘 | A Little Sorry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <span>♡</span><span>✿</span><span>♡</span><span>✧</span><span>♡</span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">for my Paayu <span>♡</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#note">Sorry note</a>
+      <a href="#little-love">Little love</a>
+    </nav>
+    <button class="music-toggle" id="musicToggle" type="button">♫ Add song</button>
+    <input id="songFile" type="file" accept="audio/*" hidden>
+  </header>
+
+  <main>
+    <section class="hero page-section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">A tiny website, with a very big sorry</p>
+        <h1>Hey, <span>Paayu...😘</span></h1>
+        <p class="hero-sub">Patni ji..🧿, thodu sambhlo ne…</p>
+        <p class="hero-line">I may not have the perfect words,<br>but this little page is made just for you. ♡</p>
+        <a class="primary-link" href="#note">Read my sorry note <span>↓</span></a>
+      </div>
+      <div class="hero-art reveal" aria-label="Cute animated heart illustration">
+        <div class="sun-glow"></div>
+        <div class="heart-big">♥</div>
+        <div class="bear">ʕ •ᴥ• ʔ</div>
+        <div class="spark s1">✦</div><div class="spark s2">♡</div><div class="spark s3">✧</div>
+        <div class="tiny-tag">Payal...💞</div>
+      </div>
+      <div class="scroll-hint">scroll a little <span>⌄</span></div>
+    </section>
+
+    <section class="note-section page-section" id="note">
+      <div class="section-heading reveal">
+        <p class="eyebrow">From my heart</p>
+        <h2>મારી પ્યારી Payal માટે… 💗</h2>
+        <p>એક નાનકડી માફી, દિલથી.</p>
+      </div>
+      <article class="letter reveal">
+        <div class="letter-stamp">♡</div>
+        <p>પાયલ, મને ખબર છે કે તું મારાથી નારાજ છે. જો મારી કોઈ વાતથી તારું દિલ દુઃખ્યું હોય, તો મને સાચે જ માફ કરજે.</p>
+        <p>મારો ઈરાદો તને દુઃખી કરવાનો ક્યારેય નહોતો. ક્યારેક મારી ભૂલ સમજવામાં મોડું થાય છે, પણ તારી લાગણીઓ મારા માટે મહત્વની છે.</p>
+        <p>હું ફક્ત “સોરી” કહીને વાત પૂરી કરવા નથી માંગતો. હું તને સાંભળવા, સમજવા અને મારી ભૂલ સુધારવા તૈયાર છું.</p>
+        <p class="letter-end">થોડું હસી દે ને… તારી સ્માઈલ બહુ યાદ આવે છે. ♡</p>
+        <div class="signature">હંમેશાં તારો, <span>એક sorry કહેતો માણસ</span></div>
+      </article>
+    </section>
+
+    <section class="little-love page-section" id="little-love">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A little reminder</p>
+        <h2>For you, Payal...💞</h2>
+        <p>કારણ કે તું ખાસ છે. બહુ જ ખાસ.</p>
+      </div>
+      <div class="love-cloud reveal" id="loveCloud" aria-label="I love you and thank you messages"></div>
+      <div class="closing-card reveal">
+        <div class="closing-heart">♡</div>
+        <h3>Patni ji..🧿</h3>
+        <p>તારી વાત સાંભળવી છે, તને સમજવું છે અને આ નાનકડી નારાજગી પ્રેમથી દૂર કરવી છે.</p>
+        <span>Paayu...😘 · Payal...💞</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with care, just for you <span>♡</span></footer>
+
+  <div class="intro-overlay" id="introOverlay">
+    <div class="intro-center">
+      <div class="intro-heart">♡</div>
+      <p>એક નાની વાત કહેવી છે…</p>
+      <span>જસ્ટ 5 સેકન્ડ…</span>
+    </div>
+    <div class="sorry-rain" id="sorryRain"></div>
+  </div>
+
+  <div class="modal-backdrop" id="sorryModal">
+    <div class="sorry-modal">
+      <div class="modal-flower">🌷</div>
+      <p class="eyebrow">A very sincere question</p>
+      <h2>માફ કરીશ ને, Payal?</h2>
+      <p class="modal-sub">એક નાનકડું “સોરી” દિલથી… 🥺</p>
+      <div class="modal-actions" id="modalActions">
+        <button class="yes-btn" id="forgiveBtn">માફ કર્યું 💗</button>
+        <button class="no-btn" id="notYetBtn">હજુ નહીં 🙈</button>
+      </div>
+      <small id="tryHint">નહીં કહેવું હોય તો પણ તારી મરજી… ♡</small>
+    </div>
+  </div>
+
+  <div class="celebration" id="celebration">
+    <div class="celebration-card">
+      <div class="confetti-heart">💗</div>
+      <p class="eyebrow">You made this little page brighter</p>
+      <h2>Thank you, Payal...💞</h2>
+      <p>માફ કરવા બદલ આભાર. હવે હું ફક્ત શબ્દોથી નહીં, પણ મારા વર્તનથી પણ સમજાવવાનો પ્રયત્ન કરીશ. ♡</p>
+      <button id="closeCelebration" class="primary-button">ચાલો, હવે એક સ્માઈલ! ✨</button>
+    </div>
+    <div class="celebration-petals" id="petals"></div>
+  </div>
+
+  <audio id="songPlayer" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
